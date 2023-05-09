@@ -1,0 +1,237 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+header
+{
+   background-color: #111;
+   color: white;
+   margin: 0;
+   padding: 0;
+   text-align:center;
+   height: 130px;
+   display: flex;
+   
+}
+.himalaya
+{
+  font-size: 40px;
+  font-weight: bold;
+}
+.headerimage
+{
+margin-left: 400px;
+margin-top: 10px;
+}
+.banner-img{
+  width: 100%;
+  height: 60vh;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8a2d2d;
+    width: 100%;
+  
+  }
+  
+  li {
+    float: left;
+    font-size: 30px;
+  }
+  li a:hover {
+    background-color: #111;
+  }
+  .nav
+  {
+    position: sticky;
+  }
+  .textoverimage
+  {
+    font-size: 50px;
+    position: absolute;
+    right: 10px;
+    top: 47vh;
+   /* margin: 200px 0px 200px 800px; */
+  }
+  img
+  {
+    margin: 0;
+  }
+.welcometext
+{
+    font-size: 30px;
+    text-align: center;
+    background-color:  #8a2d2d;
+    color: white;
+    margin-top: 0;
+    padding: 25px;
+
+}
+.link:hover
+{
+  color: white;
+}
+.feature
+{
+  background-color: rgb(87, 85, 85);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.feature1
+{
+  height: 400px;
+  margin-top: 8px;
+margin: 8px; 
+ font-size:21px;
+
+  padding: 8px;
+  width:100%;
+
+  border-radius: 12px;
+  background-image: url(./../img/background1.jpg);
+
+}
+.feature2
+{
+  height: 400px;
+  margin-top: 8px;
+margin: 8px; 
+ font-size:21px;
+
+  padding: 8px;
+  width:100%;
+  background-color: white;
+
+  border-radius: 12px;
+  background-image: url(./../img/background2.jpg);
+
+}
+.feature3
+{
+  height: 400px;
+  margin-top: 8px;
+margin: 8px; 
+ font-size:21px;
+
+  padding: 8px;
+  width:100%;
+  background-color: white;
+
+  border-radius: 12px;
+  background-image: url(./../img/background3.jpg);
+
+}
+.featureflex
+{
+  display: flex;
+ 
+  text-align: center;
+  margin-top: 20px;
+  padding: 25px;
+ 
+  
+}
+.btn{
+  color: white;
+  background-color: rgb(66, 69, 111);
+  font-size: 20px;
+  padding: 15px 40px;
+  margin: 20px;
+  border: 2px solid black;
+  border-radius: 15px;
+
+}
+.btn:hover
+{
+  background-color: rgb(122, 71, 210);
+  color: black;
+}
+.aboutschool
+{
+  height: 500px;
+  width: 100%;
+}
+.button {
+  font-size: 15px;
+  margin-left: 40px;
+  padding: 10px;
+  color: rgb(9, 9, 9);
+  background-color: rgb(198, 184, 167);
+  border: 2px solid black;
+  border-radius: 9px;
+}
+.button:hover {
+  color: rgb(241, 226, 226);
+  background-color: rgb(53, 56, 56);
+}
+.formhover:hover
+{
+  opacity: 100%;
+}
+.profile
+{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+
+}
+.profilecenter
+{
+  display: inline-flex;
+  font-size: 17px;
+}
+.marque
+{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+/* mobile screen */
+@media only screen and (max-width: 480px) {
+  .textoverimage{
+   right: 12px;
+   text-align: right;
+   
+    font-size: 32 !important;
+  }
+   
+  .headerimage{
+    margin: 0;
+    height: 15px;
+    width: 15px;
+  }
+  .headerimage p{
+    text-align: right;
+    font-size: 20px;
+  }
+ li a{
+  font-size: 17px;
+ }
+ .feature{
+  padding:0 20px;
+ }
+ .featureflex{
+  margin-left: 0;
+  display: block;
+  padding:0;
+ }
+ .feature1, .feature2, .feature3{
+margin-left:  0;
+margin-right: 0;
+padding: 0;
+
+}
+
+}
+
